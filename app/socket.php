@@ -13,7 +13,6 @@ class Socket implements MessageComponentInterface {
     }
 
     public function onOpen(ConnectionInterface $conn) {
-
         // Store the new connection in $this->clients
         $this->clients->attach($conn);
 
